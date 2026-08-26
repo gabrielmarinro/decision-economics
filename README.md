@@ -20,10 +20,6 @@ It combines deterministic financial modeling, scenario analysis, Monte Carlo sim
 
 **Financial model → Scenario engine → Risk engine → Monte Carlo → AI analyst → Executive decision layer**
 
-### Live
-
-**[Explore Decision Economics](#)**
-
 ### Architecture
 
 **State → Model → Simulate → Stress → Explain → Decide**
@@ -33,3 +29,11 @@ It combines deterministic financial modeling, scenario analysis, Monte Carlo sim
 This repository contains the public decision-system implementation, model logic, synthetic data, architecture notes and research documentation.
 
 **No production customer data or credentials are included.**
+
+### Portfolio context
+
+**State-Active Intelligence** → the intelligence paradigm
+
+**Outcome Intervention** → the operational decision system
+
+**Decision Economics** → the economic decision model
