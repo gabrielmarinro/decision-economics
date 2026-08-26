@@ -24,13 +24,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build static site
+      - name: Validate source application
+        run: |
+          set -euo pipefail
+          test -s app/index.html
+          grep -q "Iris Fleet Board Model" app/index.html
+
+      - name: Prepare static site
         run: |
           set -euo pipefail
           mkdir -p site
-          base64 -d source/original/board-model.html.gz.b64 | gzip -d > site/index.html
-          test -s site/index.html
-          grep -q "Iris Fleet Board Model" site/index.html
+          cp app/index.html site/index.html
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
