@@ -28,7 +28,7 @@ jobs:
         run: |
           set -euo pipefail
           test -s app/index.html
-          grep -q "Iris Fleet Board Model" app/index.html
+          grep -q "DEMO — Board Model" app/index.html
 
       - name: Prepare static site
         run: |
