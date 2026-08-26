@@ -20,13 +20,19 @@ It combines deterministic financial modeling, scenario analysis, Monte Carlo sim
 
 **Financial model → Scenario engine → Risk engine → Monte Carlo → AI analyst → Executive decision layer**
 
+### Live
+
+**[Explore Decision Economics →](https://gabrielmarinro.github.io/decision-economics/)**
+
 ### Architecture
 
 **State → Model → Simulate → Stress → Explain → Decide**
 
+See [ARCHITECTURE.md](ARCHITECTURE.md), [MODEL.md](MODEL.md), [SCENARIOS.md](SCENARIOS.md), [RISK_ENGINE.md](RISK_ENGINE.md), [MONTE_CARLO.md](MONTE_CARLO.md), [INVERSE_ENGINEERING.md](INVERSE_ENGINEERING.md) and [AI_LAYER.md](AI_LAYER.md).
+
 ### Repository scope
 
-This repository contains the public decision-system implementation, model logic, synthetic data, architecture notes and research documentation.
+This repository contains the public decision-system implementation, model logic, source application payload, architecture notes and research documentation.
 
 **No production customer data or credentials are included.**
 
